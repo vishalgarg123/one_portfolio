@@ -6,7 +6,7 @@ import react from "../assets/Reactc.png";
 import mysql from "../assets/mysql.png";
 import nodejs from "../assets/nodejs.png";
 import Github from "../assets/github.png";
-import Bootstrap from "../assets/bootstrap.png"
+import Bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
   const techs = [
@@ -47,26 +47,31 @@ const Experience = () => {
       style: "shadow-green-400",
     },
     {
-      id:7,
+      id: 7,
       src: Github,
       title: "Githhub",
       style: "shadow-gray-800",
     },
     {
-      id:8,
+      id: 8,
       src: Bootstrap,
       title: "BootStrap",
       style: "shadow-purple-500",
-    }
+    },
   ];
   return (
-    <div name="experience" className="w-full h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div
+      name="experience"
+      className="w-full h-screen bg-gradient-to-r from-cyan-500 to-blue-500"
+    >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-6xl font-bold inline border-b-8  border-cyan-800 ">
+        <div>
+          <p className="text-6xl p-2 font-bold inline border-b-8  border-cyan-800 ">
             Experience
           </p>
-          <p className="py-6 text-2xl font-light">These are the technologies I've worked with</p>
+          <p className="py-6 text-2xl font-light">
+            These are the technologies I've worked with
+          </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
