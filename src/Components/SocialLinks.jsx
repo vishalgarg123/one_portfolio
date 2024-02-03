@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   return (
-    <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed ">
+    <div className="  sg:flex flex-col top-[35%]  left-45 fixed  ">
       <ul>
         <li className="flex justify-between items-center w-40 h-16 px-4 ml-[-100px]  hover:ml-[-10px] hover:rounded-r-lg duration-300 bg-cyan-700">
           <a
